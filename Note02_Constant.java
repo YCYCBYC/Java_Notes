@@ -1,6 +1,6 @@
 // 常量
 
-class Note02_Constant {
+public class Note02_Constant {
     public static void main(String[] args) {
         System.out.println("Cheng");
         System.out.println("Support Chinese?");
