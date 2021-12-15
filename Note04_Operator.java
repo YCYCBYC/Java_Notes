@@ -9,8 +9,8 @@ public class Note04_Operator {
         System.out.println(a + b);
         System.out.println(a - b);
         System.out.println(a * b);
-        System.out.println(a / b);  //  mod
-        System.out.println(a % b);  //  remainder
+        System.out.println(a / b);  //  整除
+        System.out.println(a % b);  //  余数
         System.out.println(6.00 / 2);
        
         System.out.println("--------");  //--------
