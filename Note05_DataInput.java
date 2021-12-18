@@ -13,5 +13,10 @@ public class Note05_DataInput {
         
         //  output data
         System.out.println("x^2 = " + x*x);
+
+        // close the scanner
+        System.out.println("Closing Scanner...");
+        sc.close();
+        System.out.println("Scanner Closed.");
     }
 }

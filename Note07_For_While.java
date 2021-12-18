@@ -7,12 +7,12 @@ for (条件初始；条件判断；条件控制) {
 public class Note07_For_While {
     public static void main(String[] args) {
 
-        //  1~5
-        for(int i=1; i<=5; i++) {
-            System.out.println(i + " is less than 6");
+        //  for 1~3
+        for(int i=1; i<=3; i++) {
+            System.out.println(i + " is less than 4");
         }
         
-        //  Print Daffodil Number
+        //  for Print Daffodil Number
         for(int i=100; i<1000; i++) {
             int a = i%10;
             int b = (i/10)%10;
@@ -22,7 +22,30 @@ public class Note07_For_While {
             }
             
         }
-        
+        //  System.out.println(i);  i is only included in for loop
+
+        //  while : may not run the inside code
+        int j = 1;
+        while(j<=3) {
+            System.out.println("Test");
+            j++;
+        }
+        System.out.println(j);
+
+        //  do while :  at least run one time of the code inside
+        do {
+            System.out.println("Test2");
+            j++;
+        }while(j<=6);
+
+        // while Fold Paper
+        double t = 0.1;  //  initial thickness
+        int count = 0;  //  counter
+        while(t <= 8844430) {
+            t = t* 2;
+            count += 1;
+        }
+        System.out.println("The fold time is " + count);
 
     }
 }
