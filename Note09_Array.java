@@ -1,4 +1,4 @@
-public class Note11_Array {
+public class Note09_Array {
     public static void main(String[] args) {
 
         //  Dynamic initialization, default 0 / 0.0 / false / "" / null
@@ -34,11 +34,11 @@ public class Note11_Array {
 
         // multiple arrary to one array in memory
         int[] arr2 = arr;
-        System.out.println(arr);  //  same location with arr
-        System.out.println(arr2[0]);
-        System.out.println(arr2[1]);
-        System.out.println(arr2[2]);
+        System.out.println(arr2);  //  arr2 has same location with arr
+        for(int i=0; i<arr2.length; i++) {
+            System.out.println(arr2[i]);
+        }
         System.out.println("--------");
-
+        
     }
 }
