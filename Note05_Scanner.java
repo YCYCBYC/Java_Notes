@@ -1,7 +1,7 @@
 //  import package
 import java.util.Scanner;
 
-public class Note05_DataInput {
+public class Note05_Scanner {
     public static void main(String[] args) {
         
         //  create target
