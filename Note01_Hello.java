@@ -8,6 +8,5 @@ public class Note01_Hello {
         
         System.out.println("Hello World");  //must be double quotes  
         
-        
     }
 }

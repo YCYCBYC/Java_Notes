@@ -39,6 +39,7 @@ public class Note08_Random {
             sc.close();
 
         }
-
+        System.out.println("--------");
+        
     }
 }
