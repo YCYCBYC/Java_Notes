@@ -20,14 +20,15 @@ public class Note03_Variable {
         //add L after a long
         long b = 1000000000000L;  
         System.out.println(b);
-
         float c = 12.34F;
         System.out.println(c);
+
 
         //  automatic transfer variable class
         double d = 10;
         System.out.println(d);
 
+        
         //  force transfer variable class
         int k = (int)11.88;
         System.out.println(k);

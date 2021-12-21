@@ -3,7 +3,7 @@
 public class Note02_Constant {
     public static void main(String[] args) {
         System.out.println("Cheng");
-        System.out.println("Support Chinese?");
+        System.out.println("Not Support chinese.");
         
         System.out.println(123);
         System.out.println(-12);

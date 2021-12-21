@@ -12,7 +12,9 @@ public class Note06_If_Switch {
         if (a > b) {
             System.out.println("That is true");
         }
-        
+        System.out.println("--------");
+
+
         //  complex if
         if (a < b) {
             System.out.println("That is not corect");
@@ -21,8 +23,8 @@ public class Note06_If_Switch {
         } else {
             System.out.println("That is useless");
         }
+        System.out.println("--------");
 
-        System.out.println("--------");  //--------
 
         //  switch
         //  case can go through directly
@@ -38,6 +40,8 @@ public class Note06_If_Switch {
             default:
                 System.out.println(a + " has no match");
         }
+        System.out.println("--------");
 
+        
     }
 }
