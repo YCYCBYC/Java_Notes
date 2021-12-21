@@ -13,9 +13,10 @@ public class Note08_Random {
         System.out.println("--------");
         
         
-        // guess number
+        //  guess number
         
-        ranNumber = r.nextInt(100) + 1;  //  creat a random number 1~100
+        //  generate a random number
+        ranNumber = r.nextInt(100) + 1;
         System.out.println("There is a random number from 1 to 100.");
 
         //  a loop
@@ -33,10 +34,10 @@ public class Note08_Random {
                 System.out.println("Your number is small.");
             } else {
                 System.out.println("Your number is correct.");
-                sc.close();
                 break;
             }
-            
+            sc.close();
+
         }
 
     }
