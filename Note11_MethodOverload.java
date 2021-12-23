@@ -7,9 +7,9 @@
 public class Note11_MethodOverload {
     public static void main(String[] args) {
 
-        System.out.println(sum(1,2));
-        System.out.println(sum(1.1,2.1));
-        System.out.println(sum(1,2,3));
+        System.out.println(sum(1, 2));
+        System.out.println(sum(1.1, 2.1));
+        System.out.println(sum(1, 2, 3));
 
     }
 

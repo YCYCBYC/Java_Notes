@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Note09_Array {
     public static void main(String[] args) {
 
@@ -26,9 +28,7 @@ public class Note09_Array {
         arr[1] = 200;
         arr[2] = 300;
         System.out.println(arr);  //  not change
-        System.out.println(arr[0]);
-        System.out.println(arr[1]);
-        System.out.println(arr[2]);
+        System.out.println(Arrays.toString(arr));
         System.out.println("--------");
 
 
@@ -39,7 +39,7 @@ public class Note09_Array {
             System.out.println(arr2[i]);
         }
         System.out.println("--------");
-        
+         
         
     }
 }

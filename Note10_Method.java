@@ -1,3 +1,8 @@
+//  method内的参数不影响main中的参数
+//  method内修改引用的array会改变array的值
+//  public method int getMax(int[] arr) {}  注意method录入array需要加[]
+
+
 public class Note10_Method {
     public static void main(String[] args) {
         
