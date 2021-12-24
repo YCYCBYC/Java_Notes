@@ -17,9 +17,9 @@ public class Note06_If_Switch {
 
         //  complex if
         if (a < b) {
-            System.out.println("That is not corect");
+            System.out.println("That is false");
         } else if (a > b) {
-            System.out.println("That is correct");
+            System.out.println("That is true");
         } else {
             System.out.println("That is useless");
         }
@@ -30,12 +30,12 @@ public class Note06_If_Switch {
         //  case can go through directly
         switch (++a) {
             case 0:
-                System.out.println("0 is 2");
+                System.out.println(a + " is not 0");
                 break;
             case 1:
             case 3:
             case 5:
-                System.out.println("odd is 2");
+                System.out.println(a + " is not an odd");
                 break;
             default:
                 System.out.println(a + " has no match");
