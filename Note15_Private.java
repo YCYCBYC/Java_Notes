@@ -1,5 +1,3 @@
-import javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler;
-
 //  private 变量只能在这个class中使用
 //  定义方法 set, get 来从别的地方调用值
 
