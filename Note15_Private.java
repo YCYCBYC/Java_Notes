@@ -8,6 +8,7 @@ public class Note15_Private {
     private int age;
     private String name; 
 
+    
     //  define method of set variables
     public void setAge(int a) {
         if(a<0 || a>120) {

@@ -17,7 +17,7 @@ public class Note14_Object_Phone {
         System.out.println(p.brand);
         System.out.println(p.price);
         System.out.println("--------");
-        // use method
+        //  use method
         p.call();
         p.message();
         System.out.println("--------");
@@ -31,10 +31,12 @@ public class Note14_Object_Phone {
         System.out.println(ps.brand);
         System.out.println(ps.price);
         System.out.println("--------");
-        // use method
+        //  use method
         ps.call();
         ps.message();
         System.out.println("--------");
 
+
     }
 }
+
