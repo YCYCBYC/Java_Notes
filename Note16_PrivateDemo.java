@@ -1,3 +1,6 @@
+//  use Note15
+
+
 public class Note16_PrivateDemo {
     public static void main(String[] args) {
 
@@ -23,4 +26,6 @@ public class Note16_PrivateDemo {
 
 
     }
+
+    
 }
