@@ -12,7 +12,7 @@ public class Note15_Private {
     //  define method of set variables
     public void setAge(int a) {
         if(a<0 || a>120) {
-            System.out.println("Entered name is not real.");
+            System.out.println("Entered age is not real.");
         } else {
             age = a;
             System.out.println("Age has been assigned.");
