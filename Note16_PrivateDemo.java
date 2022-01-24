@@ -11,11 +11,11 @@ public class Note16_PrivateDemo {
         //  assign values
         stu.setName("Cheng");
         stu.setAge(-4);
-        stu.setAge(22);
-        
-
-        //  use method
         stu.show();
+        System.out.println("--------");
+        
+        stu.setNameTest("Yao");
+        stu.setAge(22);
         System.out.println("--------");
 
 
