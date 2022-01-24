@@ -20,6 +20,11 @@ public class Note15_Private {
     }
     public void setName(String n) {
         name = n;
+        System.out.println("Name has been assigned.");
+    }
+    public void setNameTest(String name) {
+        this.name = name;  //  this.name is global variable, name is private variable
+        System.out.println("Name has been assigned.");
     }
 
 
