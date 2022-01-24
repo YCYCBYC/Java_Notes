@@ -5,8 +5,9 @@
 public class Note14_Object_Phone {
     public static void main(String[] args) {
 
-        //  create an object
+        //  create an object: p
         Note13_Class_Phone p = new Note13_Class_Phone();
+        
         //  use variables without value
         System.out.println(p.brand);
         System.out.println(p.price);
@@ -23,7 +24,7 @@ public class Note14_Object_Phone {
         System.out.println("--------");
 
 
-        //  create another object with same class
+        //  create another object with same class: ps
         Note13_Class_Phone ps = new Note13_Class_Phone();
         ps.brand = "Apple";
         ps.price = 1099;
