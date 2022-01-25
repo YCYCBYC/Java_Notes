@@ -37,7 +37,7 @@ public class Note15_Private {
     }
 
 
-    //define method
+    //  define method of displaying results
     public void show() {
         System.out.println(name + " " + age);
     }
